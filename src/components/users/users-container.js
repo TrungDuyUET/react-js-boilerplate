@@ -1,9 +1,6 @@
 import React from 'react';
 import { connect } from 'react-redux';
-
 import UsersList from './users-list';
-import * as actions from '../../store/actions'
-
 class UsersContainer extends React.Component {
 
     render() {
