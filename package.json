@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
-    "node-sass": "^4.11.0",
     "react": "^16.8.3",
     "react-dom": "^16.8.3",
     "react-intl": "^2.8.0",
@@ -28,5 +27,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "node-sass": "^4.11.0"
+  }
 }

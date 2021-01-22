@@ -6,10 +6,6 @@ import * as actions from '../../store/actions'
 
 class UsersContainer extends React.Component {
 
-    componentDidMount() {
-        this.props.fetchAll();
-    }
-
     render() {
         const { users = [] } = this.props;
 
@@ -26,7 +22,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        fetchAll: () => dispatch(actions.getAllUsers())
+        
     }
 }
 
